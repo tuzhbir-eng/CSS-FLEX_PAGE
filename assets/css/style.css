@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+header {
+  background-image: url(/assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-color: grey;
+  max-height: 1000px;
+  min-height: 150px;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+}
+p {
+  font-size: initial;
+}
+
+i {
+  font-size: 55px;
+}
+
+.logo {
+  height: 180px;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.CenterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  /* border: 5px red solid; */
+  font-size: initial;
+  height: 1000px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 270px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 15px auto;
+}
+
+.card1,
+.card2,
+.card3 {
+  /* border: 5px blue solid; */
+  margin: 10px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bot {
+  margin: auto;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.fa-computer {
+  font-size: 170px;
+}
+
+.bot-text {
+  text-align: left;
+  width: 350px;
+  margin-left: 100px;
+}
+
+
+.foot {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  font-size: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
