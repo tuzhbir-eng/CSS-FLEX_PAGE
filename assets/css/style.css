@@ -12,10 +12,10 @@ header {
   background-size: cover;
   background-position: 50%;
   background-color: grey;
-  max-height: 1000px;
-  min-height: 150px;
+  min-height: 100vh;
   width: 100%;
   color: white;
+  padding: 30px;
 }
 
 h1 {
@@ -89,9 +89,7 @@ i {
 .bot-text {
   text-align: left;
   width: 350px;
-  margin-left: 100px;
 }
-
 
 .foot {
   background-color: rgb(53, 53, 53);
@@ -101,4 +99,5 @@ i {
   justify-content: center;
   align-items: center;
   height: 100px;
+  padding: 30px;
 }
