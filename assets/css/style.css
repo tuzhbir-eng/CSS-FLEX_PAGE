@@ -66,9 +66,7 @@ i {
   margin: 15px auto;
 }
 
-.card1,
-.card2,
-.card3 {
+.card {
   /* border: 5px blue solid; */
   margin: 10px;
   width: 350px;
