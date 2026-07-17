@@ -38,7 +38,7 @@ i {
   margin: 0 auto;
 }
 
-.center-cntainer {
+.center-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
