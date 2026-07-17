@@ -35,7 +35,7 @@ i {
   margin: 0 auto;
 }
 
-.CenterContainer {
+.center-cntainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
